@@ -1,0 +1,9 @@
+tasks:
+  - init: javac SelectionSortTest.java
+    command: java SelectionSortTest
+  - init: javac ImprovedSelectionSortTest.java
+    command: java ImprovedSelectionSortTest
+
+vscode:
+  extensions:
+    - vscjava.vscode-java-pack
